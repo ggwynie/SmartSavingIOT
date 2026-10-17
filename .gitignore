@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.env
+venv/
+env/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Dataset (large binary files – store separately)
+database_rupiah/
+*.jpg
+*.jpeg
+*.png
+*.mp4
+*.mov
+*.avi
+
+# Arduino build artifacts
+*.hex
+*.elf
+*.map
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.user
